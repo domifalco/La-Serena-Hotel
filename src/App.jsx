@@ -17,10 +17,10 @@ function App() {
 //Este es el array creado para los botones del nav. Cada posicion del array representa un boton y contiene el nombre, la URL y el icono. Si a futuro se necesitaran mas botones, se pueden agregar sumando un elemento aca en vez de modificando el componente del header
 
 const navLinks = [
-  {name: 'Inicio', url: '/home', icon: 'fa-solid fa-house' },
-  {name: 'Habitaciones', url: '/habitaciones', icon: 'fa-solid fa-bed' },
-  {name: 'Instalaciones', url: '/gallery', icon: 'fa-solid fa-image' },
-  {name: 'Contacto', url: '/contact', icon: 'fa-solid fa-envelope' },
+  {name: 'Inicio', url: '/La-Serena-Hotel/home', icon: 'fa-solid fa-house' },
+  {name: 'Habitaciones', url: '/La-Serena-Hotel/habitaciones', icon: 'fa-solid fa-bed' },
+  {name: 'Instalaciones', url: '/La-Serena-Hotel/gallery', icon: 'fa-solid fa-image' },
+  {name: 'Contacto', url: '/La-Serena-Hotel/contact', icon: 'fa-solid fa-envelope' },
   
 ]
 
