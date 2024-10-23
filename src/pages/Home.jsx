@@ -12,7 +12,7 @@ function Home() {
       title = 'Inicio'
       paragraph = {paragraph}
       highlightText = 'Reserve su habitación hoy mismo y comience a planificar su escapada perfecta.'
-      imgUrl= '../La-Serena-Hotel/#/public/img/hotel-fachada.jpg'
+      imgUrl= 'https://www.sierranevada.com.ar/images/32472484.jpg'
       imgAlt = 'hotel la Serena'
     />
   )
