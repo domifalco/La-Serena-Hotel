@@ -12,7 +12,7 @@ function Home() {
       title = 'Inicio'
       paragraph = {paragraph}
       highlightText = 'Reserve su habitación hoy mismo y comience a planificar su escapada perfecta.'
-      imgUrl= {process.env.PUBLIC_URL + '/img/hotel-fachada.jpg'}
+      imgUrl= '../La-Serena-Hotel/#/public/img/hotel-fachada.jpg'
       imgAlt = 'hotel la Serena'
     />
   )
