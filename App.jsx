@@ -1,13 +1,13 @@
 
 //Se importan los css y todos los componentes.
 import './App.css';
-import '../public/css/style.css';
-import Header from './components/layout/header';
-import Footer from './components/layout/footer';
-import Home from './pages/Home';
-import Habitaciones from './pages/Habitaciones';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
+import '../La-Serena-Hotel/public/css/style.css';
+import Header from './src/components/layout/header';
+import Footer from './src/components/layout/footer';
+import Home from './src/pages/Home';
+import Habitaciones from './src/pages/Habitaciones';
+import Gallery from './src/pages/Gallery';
+import Contact from './src/pages/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
