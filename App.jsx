@@ -12,10 +12,10 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   const navLinks = [
-    {name: 'Inicio', url: '/La-Serena-Hotel/home', icon: 'fa-solid fa-house' },
-    {name: 'Habitaciones', url: '/La-Serena-Hotel/habitaciones', icon: 'fa-solid fa-bed' },
-    {name: 'Instalaciones', url: '/La-Serena-Hotel/gallery', icon: 'fa-solid fa-image' },
-    {name: 'Contacto', url: '/La-Serena-Hotel/contact', icon: 'fa-solid fa-envelope' },
+    {name: 'Inicio', url: '/La-Serena-Hotel/#/home', icon: 'fa-solid fa-house' },
+    {name: 'Habitaciones', url: '/La-Serena-Hotel/#/habitaciones', icon: 'fa-solid fa-bed' },
+    {name: 'Instalaciones', url: '/La-Serena-Hotel/#/gallery', icon: 'fa-solid fa-image' },
+    {name: 'Contacto', url: '/La-Serena-Hotel/#/contact', icon: 'fa-solid fa-envelope' },
   ];
 
   const footerIcons = [
