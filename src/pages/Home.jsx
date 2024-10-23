@@ -9,11 +9,11 @@ function Home() {
     ]
   return (
     <Index
-    title = 'Inicio'
-    paragraph = {paragraph}
-    highlightText = 'Reserve su habitación hoy mismo y comience a planificar su escapada perfecta.'
-    imgUrl= '../public/img/hotel fachada.jpg'
-    imgAlt = 'hotel la Serena'
+      title = 'Inicio'
+      paragraph = {paragraph}
+      highlightText = 'Reserve su habitación hoy mismo y comience a planificar su escapada perfecta.'
+      imgUrl= {process.env.PUBLIC_URL + '/img/hotel-fachada.jpg'}
+      imgAlt = 'hotel la Serena'
     />
   )
 }
