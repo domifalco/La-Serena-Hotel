@@ -37,8 +37,8 @@ const footerIcons = [
     {/* Se devuelven todos los componentes con sus props usadas entre llaves */}
   <Router basename='/La-Serena-Hotel'>
     <Header
-    webTitle ='Hotel La Serena'
-    navLinks = {navLinks}
+      webTitle ='Hotel La Serena'
+      navLinks = {navLinks}
     />
 
     <Routes>
